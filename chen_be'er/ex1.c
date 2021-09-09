@@ -22,7 +22,7 @@ void main()
             }
         else
         {
-            if (sw2)
+            if (!sw2)
                 // down
                 for (int i = 9; i >= 0; i--)
                 {
