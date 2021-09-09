@@ -9,7 +9,7 @@ sbit sw2 = P2 ^ 1;
 void main()
 {
     char hexCodes[] = {0x7E, 0x30, 0x79, 0x33, 0x5B, 0x5F, 0x70, 0x7F, 0x7B};
-    sw = 1;
+    sw1 = sw2 = 1;
 
     while (1)
     {
