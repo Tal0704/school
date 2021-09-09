@@ -23,20 +23,15 @@ void main()
 		else
         {
             if (sw2)
-            {
                 // down
                 for (int i = 9; i >= 0; i--)
                 {
                     P1 = hexCodes[i];
                     delay_ms(500);
                 }
-            }
             else
-            {
                 // off
                 P1 = 0x00;
-            }
         }
-            
 	}
 }
