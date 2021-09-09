@@ -15,7 +15,7 @@ void main()
     {
         if (!sw1)
             // up
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < 10; i++)
             {
                 P1 = hexCodes[i];
                 delay_ms(500);
